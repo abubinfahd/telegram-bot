@@ -2,6 +2,10 @@
 
 An intelligent, stateful Telegram chatbot built using **LangGraph**, the **Gemini 2.5 Flash** model (via LangChain), and **python-telegram-bot**. The chatbot runs as an agent that can dynamically decide when to call tools (such as web search, date/time retrieval, and safe math calculation) and persists conversational state across user sessions using an asynchronous SQLite checkpointer.
 
+<p align="center">
+  <img src="assets/photo.jpeg" alt="Agentic AI Telegram Chatbot Demo" width="400"/>
+</p>
+
 ---
 
 ## Architecture & Workflow
