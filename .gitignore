@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite databases and checkpointer state
+data/checkpoints.db*
+/data/*.db
+/data/*.db-shm
+/data/*.db-wal
+
+# IDE / Editor configuration files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
